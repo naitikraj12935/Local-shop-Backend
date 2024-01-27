@@ -25,7 +25,7 @@ const app = express();
 
 app.use(cookieParser());
 const corsOptions = {
-  origin: 'http://localhost:1234',
+  origin: 'https://65b52ca8c65a5fb2ff661896--fluffy-sable-529bcd.netlify.app',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   allowedHeaders: ['Content-Type', 'Accept'],
