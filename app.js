@@ -25,7 +25,7 @@ const app = express();
 
 app.use(cookieParser());
 const corsOptions = {
-  origin: 'http://localhost:1234',
+  origin: '*',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   allowedHeaders: ['Content-Type', 'Accept'],
