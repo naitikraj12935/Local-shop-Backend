@@ -1,0 +1,15 @@
+{
+    "restartable": "rs",
+    "ignore": [".git", "node_modules"],
+    "verbose": true,
+    "execMap": {
+      "js": "node --harmony"
+    },
+    "delay": "1000",
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 3000
+    },
+    "ext": "js json"
+  }
+  
