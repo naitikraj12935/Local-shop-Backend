@@ -25,7 +25,7 @@ const app = express();
 
 app.use(cookieParser());
 const corsOptions = {
-  origin: 'https://velvety-muffin-70aacc.netlify.app',
+  origin: 'https://endearing-entremet-222036.netlify.app',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   allowedHeaders: ['Content-Type', 'Accept'],
