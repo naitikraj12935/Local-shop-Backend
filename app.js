@@ -25,7 +25,7 @@ const app = express();
 
 app.use(cookieParser());
 const corsOptions = {
-  origin: 'https://endearing-entremet-222036.netlify.app',
+  origin: 'https://zippy-sherbet-9b848d.netlify.app',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   allowedHeaders: ['Content-Type', 'Accept'],
