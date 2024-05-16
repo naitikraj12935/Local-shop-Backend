@@ -1,8 +1,8 @@
 const crypto = require('crypto');
 const Razorpay = require('razorpay');
 const instance = new Razorpay({
-    key_id:'rzp_test_3BTL9xGCi6ZWum',
-    key_secret:'2eZTaCwb4mR3cYNticU1toMW'
+    key_id:'rzp_test_hHwt4pSFJaml43',
+    key_secret:'FX8Xq0dCiI5VS5K3CJneSMI6'
 });
 
 const checkout = async (req, res) => {
