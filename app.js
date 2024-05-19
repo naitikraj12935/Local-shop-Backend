@@ -43,7 +43,7 @@ app.use('/',OrderRoute);
 app.use('/',VerifyRoute);
 app.use('/api',PaymentRoute);
 app.get("/api/getkey", (req, res) =>
-  res.status(200).json({ key: process.env.RAZORPAY_KEY_ID })
+  res.status(200).json({ key: "rzp_test_y595riQBCfFEvo" })
 );
 
 app.use('/',MobileRoute);
